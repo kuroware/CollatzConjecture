@@ -1,0 +1,19 @@
+{
+  "name": "Math",
+  "description": "Math app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-chart.js": "~0.8.7",
+    "angular-route": "~1.4.8"
+  }
+}

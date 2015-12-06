@@ -1,0 +1,22 @@
+<div class="col-md-12">
+	<p class="lead text-center">
+		Collatz Conjecture
+	</p>
+	<blockquote style="text-align:center;">
+		Does the Collatz sequence from initial value n eventually reach 1, for all n > 0?
+	</blockquote>
+	<input type="text" ng-model="vm.collatz_number" placeholder="Input a natural number" class="form-control">
+</div>
+<div class="col-md-12">
+	<div style="height:200px;width:1200px;margin-bottom:5px;margin: 0 auto;">
+		<canvas id="line"
+	        class="chart chart-line" chart-data="vm.chart_data"
+		  chart-labels="vm.chart_labels" chart-legend="true" chart-series="vm.chart_series"
+		  chart-options="vm.chart_options" 
+		  chart-click="onClick">
+		</canvas> 
+	</div>
+</div>
+<hr>
+<div class="col-md-12">
+</div>
